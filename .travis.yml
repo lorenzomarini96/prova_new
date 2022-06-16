@@ -25,8 +25,7 @@ install:
 
 # command to run tests
 script: 
-  - python test_module1.py
-
+  - python tests/test_module1.py
 
 
 #language: python
