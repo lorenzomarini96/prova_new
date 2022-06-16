@@ -12,7 +12,11 @@ cache: pip
 version: ~> 1.0 # https://docs.travis-ci.com/user/build-config-validation
 
 notifications:
-  email: false
+   email:
+     recipients:
+       - lorenzo.marini.1996@gmail.com
+     on_success: never
+     on_failure: always
   
 os: linux
 
@@ -20,4 +24,18 @@ install:
   - pip install -r requirements.txt
 
 # command to run tests
-script: pytest
+script: 
+  - python test_module1.py
+
+
+
+#language: python
+#python:
+# - "3.8"
+#install:
+# - pip install -r requirements.txt
+#script:
+# - black .
+# - isort .
+# - python test_cae.py
+
