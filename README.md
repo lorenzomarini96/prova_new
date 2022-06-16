@@ -5,10 +5,6 @@
 [![Documentation Status](https://readthedocs.org/projects/prova-new/badge/?version=latest)](https://prova-new.readthedocs.io/en/latest/?badge=latest)
 
 
-# Repo template:
-
-# Project Title
-
 One Paragraph of project description goes here
 
 ## Getting Started
@@ -81,9 +77,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Lorenzo Marini** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 ## License
 
