@@ -1,3 +1,5 @@
+dist: xenial   # required for Python >= 3.7
+
 language: python
 
 python:
@@ -17,5 +19,5 @@ os: linux
 install:
   - pip install -r requirements.txt
 
-script:
-  - py.test
+# command to run tests
+script: pytest
