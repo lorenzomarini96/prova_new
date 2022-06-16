@@ -7,6 +7,8 @@ python:
 
 cache: pip
 
+version: ~> 1.0 # https://docs.travis-ci.com/user/build-config-validation
+
 notifications:
   email: false
   
