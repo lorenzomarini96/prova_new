@@ -14,4 +14,4 @@ script:
   - pytest
 
 
-# Test per credenziali github da vscode
+# Test per travis...
